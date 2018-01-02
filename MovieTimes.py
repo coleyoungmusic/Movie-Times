@@ -21,7 +21,6 @@ for x in movieTitles:
 
 titleChoice = int(input("Enter what movie you would like to see: ")) - 1
 
-
 showtime_divs = [soup.find_all('div', {'class:', 'showtimeMovieBlock'})]  # individual movie info
 
 for x in showtime_divs:
